@@ -89,9 +89,15 @@ export function NestingVisualizer({ result, sheet }: NestingVisualizerProps) {
     // Define colors for different piece types
     const colors: Record<string, string> = {
       'TAMPO (BLANK)': '#3b82f6',
-      'REFORÇO INFERIOR': '#10b981',
+      'TAMPO COM ESPELHO (BLANK)': '#3b82f6',
       'REFORÇO FRONTAL': '#f59e0b',
-      'REFORÇO TRASEIRO': '#ef4444',
+      'REFORÇO CENTRAL INFERIOR': '#10b981',
+      'REFORÇO TRASEIRO CENTRAL': '#ef4444',
+      'REFORÇO TRASEIRO LATERAL ESQ': '#8b5cf6',
+      'REFORÇO TRASEIRO LATERAL DIR': '#ec4899',
+      'CASQUILHO': '#6366f1',
+      'PRATELEIRA': '#06b6d4',
+      'REFORÇO PRATELEIRA': '#14b8a6',
     };
 
     // Draw placed rectangles
